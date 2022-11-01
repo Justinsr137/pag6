@@ -1,0 +1,113 @@
+:root{
+    --white: rgb(163, 161, 161);
+    --center: ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, rgb(36, 31, 31), yellow);
+    background-size: 100%;
+}
+
+main{
+    display: flex;
+    
+}
+
+.first{
+    margin: 100px 0 0 65px;
+    height: 500px;
+    width: 320px;
+    padding: 0 32px;
+    background-color: var(--white);
+}
+
+.second{
+    padding: 0 0 0 25px;
+    margin-top: 25px;
+    height: 620px;
+    width: 600px;
+    background-color: var(--center);
+    color: white;
+}
+
+.third{
+    margin: 25px 65px 0 0;
+    height: 620px;
+    width: 200px;
+    text-align: center;
+    background-color: var(--white);
+    padding: 0 10px;
+}
+
+.imgf{
+    display: block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 16px auto 0;
+    box-shadow: 0 0 10px 0 rgb(251, 255, 0);
+}
+
+.imgfp{
+    margin-top: 12px;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.imgparagraph{
+    border: groove rgb(0, 125, 228) 2px;
+    width: 300px;
+    height: 155px;
+}
+
+.sparagraph{
+    width: 230px;
+    margin: 0 12px;
+}
+
+.div{
+    display: flex;
+    padding: 15px 25px 0 0;
+}
+
+.tparagraph{
+    margin: 12px 37px 0 0;
+}
+
+.paragraph{
+    margin: 0 37px 0 0;
+}
+
+.descrip{
+    margin-top: 20px;
+}
+
+.profiles{
+    margin: 30px 0 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdimg{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+}
+
+.id{
+    display: flex;
+    justify-content: space-around;
+}
